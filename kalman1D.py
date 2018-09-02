@@ -1,4 +1,4 @@
-from mpu6050 import mpu6050
+]from mpu6050 import mpu6050
 from time import sleep
 import math
 import numpy as np
@@ -8,7 +8,7 @@ import numpy as np
 outFile = open('outFile.dat','w')
 sensor = mpu6050(0x68)
 
-n = 10000
+n = 1000
 sz = (n, 1)
 
 xhat = np.zeros(sz)
